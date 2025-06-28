@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(4, 51, 41);
+    color:white;
+
+}
+
+h1 {
+    margin-left: 40%;
+}
+
+button {
+    background-color: aliceblue;
+    color:black;
+    font-size: larger;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+label {
+    color: blue;
+    font-size: larger;
+}
