@@ -21,6 +21,12 @@ const palabras = ["manzana", "banana", "pera", "durazno", "frutilla","mango"];
 formulario.addEventListener("submit", (e) => {
     e.preventDefault();
 
+    if (!ingresar.value ) {
+        alert("Error al filtrar")
+        return 
+    }
+
+
     const texto = ingresar.value.toLowerCase(); // texto ingresado en minúsculas
     mostrar.innerHTML = ''; // Limpiar lista actual 
 
@@ -41,5 +47,6 @@ formulario.addEventListener("submit", (e) => {
         mostrar.appendChild(li);
         
     }
-});
 
+   
+});
